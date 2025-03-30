@@ -140,7 +140,7 @@ public class Principal {
     private void buscarPorCategoria() {
         System.out.print("Digite a categoria/gênero que deseja buscar: ");
         var nomeGenero = leitura.nextLine();
-        Categoria categoria = Categoria.fromPortuges(nomeGenero);
+        Categoria categoria = Categoria.fromPortugues(nomeGenero);
         List<Serie> seriesPorCategoria = repositorio.findByGenero(categoria);
         System.out.println("Séries da categoria: " + nomeGenero);
         seriesPorCategoria.forEach(System.out::println);
