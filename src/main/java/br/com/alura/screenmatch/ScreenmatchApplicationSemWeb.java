@@ -7,6 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//Descomente o código abaixo para a pesquisa dos dados das séries!
+
 //@SpringBootApplication
 //public class ScreenmatchApplicationSemWeb implements CommandLineRunner {
 //
